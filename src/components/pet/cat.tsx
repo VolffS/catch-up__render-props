@@ -1,7 +1,7 @@
-import catSvg from "../assets/cat-halloween-kitty.svg";
+import catSvg from "../../assets/cat-halloween-kitty.svg";
 import {useEffect, useMemo} from "react";
-import {MouseCoordinates} from "../type/mouse-coordinates.tsx";
-import {getCoordinateCat} from "../helpers/helpers.ts";
+import {MouseCoordinates} from "../../type/mouse-coordinates.tsx";
+import {getCoordinateCat} from "../../helpers/helpers.ts";
 
 let previousCoordinate = {
     x: 0,

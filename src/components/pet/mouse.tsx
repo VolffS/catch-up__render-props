@@ -1,5 +1,5 @@
-import mouseSvg from "../assets/mouse-svgrepo-com.svg";
-import {MouseCoordinates} from "../type/mouse-coordinates.tsx";
+import mouseSvg from "../../assets/mouse-svgrepo-com.svg";
+import {MouseCoordinates} from "../../type/mouse-coordinates.tsx";
 
 export const Mouse = ({mouse}: { mouse: MouseCoordinates }) => {
     return (

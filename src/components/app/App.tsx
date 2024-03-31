@@ -1,8 +1,8 @@
 import './App.scss'
-import {Cat} from "./components/Cat.tsx";
-import {Mouse} from "./components/mouse.tsx";
-import {MouseCoordinates} from "./type/mouse-coordinates.tsx";
-import {MouseCoordinate} from "./components/mouse-coordinate/mouse-coordinates.tsx";
+import {Cat} from "../pet/cat.tsx";
+import {Mouse} from "../pet/mouse.tsx";
+import {MouseCoordinates} from "../../type/mouse-coordinates.tsx";
+import {MouseCoordinate} from "../mouse-coordinate/mouse-coordinates.tsx";
 
 function App() {
 
